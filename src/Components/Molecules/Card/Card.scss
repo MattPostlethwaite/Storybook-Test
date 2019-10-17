@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid darken(#ececec, 10%);
+  background-color: #ececec;
+  border-radius: 5px;
+  padding: 30px;
+  display: inline-block;
+  text-align: center;
+
+  p {
+    padding-bottom: 20px;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+  }
+}

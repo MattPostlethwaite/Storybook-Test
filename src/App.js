@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Heading from './Components/Headings';
 import './App.css';
 
 function App() {
@@ -19,6 +20,13 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Heading heading="This heading" type="1" />
+      <Heading heading="This heading" type="2" />
+      <Heading heading="This heading" type="3" />
+      <Heading heading="This heading" type="4" />
+      <Heading heading="This heading" type="5" />
+      <Heading heading="This heading" type="6" />
     </div>
   );
 }
