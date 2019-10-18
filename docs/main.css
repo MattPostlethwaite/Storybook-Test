@@ -1,0 +1,48 @@
+button {
+  background-color: coral;
+  border: none;
+  border: 1px solid coral;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem; }
+  button:hover, button:focus, button:active {
+    background-color: transparent; }
+  button.secondary {
+    background-color: hotpink; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+.card {
+  border: 1px solid lightgray;
+  background-color: #ececec;
+  border-radius: 5px;
+  padding: 30px;
+  display: inline-block;
+  text-align: center; }
+  .card p {
+    padding-bottom: 20px; }
+  .card button {
+    display: block;
+    width: 100%; }
+
+.CardSection {
+  padding: 30px; }
+  .CardSection .cards {
+    margin-top: 40px; }
+    .CardSection .cards .card {
+      margin: 10px; }
+
+
+/*# sourceMappingURL=main.css.map*/
