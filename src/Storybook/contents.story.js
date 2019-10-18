@@ -1,2 +1,2 @@
-require('./Introduction/Introduction.story')
-require('./Components/Components.story')
+require('./Introduction/Introduction.story.js')
+require('./Components/Components.story.js')

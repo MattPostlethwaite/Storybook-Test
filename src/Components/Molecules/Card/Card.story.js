@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '.'
 
 export default {
-	title: 'Cards'
+	title: 'Molecules|Cards'
 }
 
 export const simpleCard = () => (

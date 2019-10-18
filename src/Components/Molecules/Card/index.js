@@ -7,7 +7,7 @@ const Card = props => {
 	const { title, content, buttonLabel } = props;
 	return (
 		<div class="card">
-			<Heading heading={title} type="1" />
+			<Heading type="1">{title}</Heading>
 			<p>{content}</p>
 			<Button>{buttonLabel}</Button>
 		</div>

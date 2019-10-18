@@ -3,7 +3,7 @@ import Welcome from './Sections/Welcome'
 import Styleguide from './Sections/Styleguide'
 
 export default {
-	title: 'Introduction'
+	title: 'Welcome|Introduction'
 }
 
 export const welcome = () => (

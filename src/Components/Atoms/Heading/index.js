@@ -2,28 +2,25 @@ import React from 'react';
 import './Heading.scss';
 
 const Heading = props => {
-	const { heading, type } = props;
+	const { children, type } = props;
 
 	if ( type === "1" ) {
-		return <h1>{heading}</h1>
-	}
-	if ( type === "1" ) {
-		return <h1>{heading}</h1>
+		return <h1>{children}</h1>
 	}
 	if ( type === "2" ) {
-		return <h2>{heading}</h2>
+		return <h2>{children}</h2>
 	}
 	if ( type === "3" ) {
-		return <h3>{heading}</h3>
+		return <h3>{children}</h3>
 	}
 	if ( type === "4" ) {
-		return <h4>{heading}</h4>
+		return <h4>{children}</h4>
 	}
 	if ( type === "5" ) {
-		return <h5>{heading}</h5>
+		return <h5>{children}</h5>
 	}
 	if ( type === "6" ) {
-		return <h6>{heading}</h6>
+		return <h6>{children}</h6>
 	}
 }
 
